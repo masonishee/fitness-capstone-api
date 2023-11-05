@@ -1,4 +1,6 @@
 class WorkoutsController < ApplicationController
+  before_action :authenticate_user
+
   def index
     @workouts = current_user.workouts.all
     render :index
@@ -8,7 +10,6 @@ class WorkoutsController < ApplicationController
     @workout = Workout.create(
       name: params[:name],
       user_id: current_user.id,
-
     )
     render :show
   end

@@ -12,6 +12,6 @@ Rails.application.routes.draw do
   get "/routines/:id" => "routines#show"
 
   get "/workouts" => "workouts#index"
-  get "/workouts" => "workouts#create"
+  post "/workouts" => "workouts#create"
   get "/workouts/:id" => "workouts#show"
 end
