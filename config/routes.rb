@@ -10,4 +10,8 @@ Rails.application.routes.draw do
   get "/routines" => "routines#index"
   post "/routines" => "routines#create"
   get "/routines/:id" => "routines#show"
+
+  get "/workouts" => "workouts#index"
+  get "/workouts" => "workouts#create"
+  get "/workouts/:id" => "workouts#show"
 end
