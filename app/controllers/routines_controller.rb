@@ -2,7 +2,7 @@ class RoutinesController < ApplicationController
   before_action :authenticate_user
 
   def index
-    @routines = Routine.current_user.all
+    @routines = current_user.routines.all
     render :index
   end
 

@@ -1,6 +1,6 @@
 class WorkoutsController < ApplicationController
   def index
-    @workouts = Workout.current_user.all
+    @workouts = current_user.workouts.all
     render :index
   end
 
