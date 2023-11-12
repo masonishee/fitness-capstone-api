@@ -28,9 +28,9 @@ Make sure you have the following installed:
 
 Start the Rails server with `rails server`.
 
-## Screenshot
+## Screenshot HomePage
 
-![MuscleMentor Screenshot](!(<Screenshot 2023-11-12 at 3.09.48 PM.png>))
+![MuscleMentor Screenshot](Screenshot%202023-11-12%20at%203.09.48%20PM.png)
 
 ## API Endpoints
 
