@@ -1,4 +1,4 @@
-# Fitness Application Backend API
+# MuscleMentor Backend API
 
 Welcome to the Fitness Application Backend API! This API is designed to support the functionality of a fitness application, allowing users to create exercises, design and update routines, and schedule and modify workouts for specific days.
 
@@ -27,6 +27,10 @@ Make sure you have the following installed:
 ### Run the Server
 
 Start the Rails server with `rails server`.
+
+## Screenshot
+
+![MuscleMentor Screenshot](![Alt text](<Screenshot 2023-11-12 at 3.09.48 PM.png>))
 
 ## API Endpoints
 
