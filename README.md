@@ -28,10 +28,6 @@ Make sure you have the following installed:
 
 Start the Rails server with `rails server`.
 
-## Screenshot HomePage
-
-<img src="Screenshot%202023-11-12%20at%203.09.48%20PM.png" alt="MuscleMentor Screenshot" width="500"/>
-
 ## API Endpoints
 
 ### Exercises
