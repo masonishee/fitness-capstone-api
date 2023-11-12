@@ -30,7 +30,7 @@ Start the Rails server with `rails server`.
 
 ## Screenshot HomePage
 
-![MuscleMentor Screenshot](Screenshot%202023-11-12%20at%203.09.48%20PM.png)
+<img src="Screenshot%202023-11-12%20at%203.09.48%20PM.png" alt="MuscleMentor Screenshot" width="500"/>
 
 ## API Endpoints
 
