@@ -14,4 +14,13 @@ Rails.application.routes.draw do
   get "/workouts" => "workouts#index"
   post "/workouts" => "workouts#create"
   get "/workouts/:id" => "workouts#show"
+
+  resources :workouts do
+    collection do
+      get "index_by_date"
+    end
+  end
+  resources :workout_schedules
+
+  get "/workouts/index_by_date", to: "workouts#index_by_date"
 end

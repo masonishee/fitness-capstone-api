@@ -10,6 +10,7 @@ class RoutinesController < ApplicationController
     @routine = Routine.create(
       reps: params[:reps],
       exercise_id: params[:exercise_id],
+      workout_id: params[:workout_id],
       user_id: current_user.id,
     )
     render :show

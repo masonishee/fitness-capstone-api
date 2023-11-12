@@ -1,24 +1,55 @@
-# README
+# Fitness Application Backend API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to the Fitness Application Backend API! This API is designed to support the functionality of a fitness application, allowing users to create exercises, design and update routines, and schedule and modify workouts for specific days.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+### Prerequisites
 
-* System dependencies
+Make sure you have the following installed:
 
-* Configuration
+- Ruby
+- Ruby on Rails
+- PostgreSQL
 
-* Database creation
+### Installation
 
-* Database initialization
+1. Clone the repository: `git clone https://github.com/masonishee/fitness-capstone-api.git`
+2. Navigate to the project directory: `cd fitness-capstone-api`
+3. Install dependencies: `bundle install`
+4. Set up the database: `rails db:create && rails db:migrate`
 
-* How to run the test suite
+### Configuration
 
-* Services (job queues, cache servers, search engines, etc.)
+1. Configure the database connection in `config/database.yml`.
+2. API settings can be adjusted in `config/application.rb`.
 
-* Deployment instructions
+### Run the Server
 
-* ...
+Start the Rails server with `rails server`.
+
+## API Endpoints
+
+### Exercises
+
+- **GET /exercises**: Retrieve a list of all exercises.
+- **GET /exercises/:id**: Retrieve details of a specific exercise.
+- **POST /exercises**: Create a new exercise.
+- **PUT /exercises/:id**: Update details of a specific exercise.
+- **DELETE /exercises/:id**: Delete a specific exercise.
+
+### Routines
+
+- **GET /routines**: Retrieve a list of all routines.
+- **GET /routines/:id**: Retrieve details of a specific routine.
+- **POST /routines**: Create a new routine.
+- **PUT /routines/:id**: Update details of a specific routine.
+- **DELETE /routines/:id**: Delete a specific routine.
+
+### Workouts
+
+- **GET /workouts**: Retrieve a list of all workouts.
+- **GET /workouts/:id**: Retrieve details of a specific workout.
+- **POST /workouts**: Create a new workout.
+- **PUT /workouts/:id**: Update details of a specific workout.
+- **DELETE /workouts/:id**: Delete a specific workout.
